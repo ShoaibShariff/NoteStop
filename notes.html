@@ -8,18 +8,22 @@
   <style>
     body {
       margin: 0;
+      padding: 0;
+      height: 100vh;
+      
       font-family: Arial, sans-serif;
-      background: url('IMG_3415.jpg')
+      background: url('IMG_3415.jpg') no-repeat center/cover;
+      backdrop-filter: blur(7px)  brightness(0.6);
     }
 
     /* Navbar */
     nav {
       background: rgba(13, 27, 42, 0.8);
-      backdrop-filter: blur(10px);
+      backdrop-filter: blur(4px);
       color: white;
       display: flex;
       justify-content: space-between;
-      padding: 10px 20px;
+      padding: 20px 10px;
       align-items: center;
       z-index: 1000;
 
@@ -32,8 +36,10 @@
     nav a {
       color: white;
       text-decoration: none;
-      margin-left: 20px;
-      font-size: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+      font-size: 17px;
+      font-weight: bold;
     }
 
     /* Cards Section */
@@ -63,15 +69,6 @@
     .card p {
       margin: 5px 0 0;
       color: #555;
-    }
-
-    /* Footer */
-    footer {
-      background: #0d1b2a;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      margin-top: 200px;
     }
 
     /* Mobile */
@@ -125,11 +122,6 @@
     </a>
 
   </div>
-
-  <!-- Footer -->
-  <footer>
-    @ NoteStop 2026 | Made for Students
-  </footer>
 
 </body>
 </html>
